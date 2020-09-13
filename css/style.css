@@ -1,0 +1,116 @@
+.navbar {
+  background: #000; }
+  .navbar .nav-link {
+    font-size: 16px;
+    text-transform: uppercase;
+    padding-left: 1em !important;
+    padding-right: 1em !important; }
+
+.carousel-item {
+  height: 450px; 
+}
+
+.carousel-img-1 {
+  background: url("../images/slider-1.jpg");
+  background-size: cover; 
+  background-position: 100% 100%;
+}
+
+.carousel-img-2 {
+  background: url("../images/slider-2.jpg");
+  background-size: cover; 
+  background-position: 100% 100%;
+}
+
+.carousel-img-3 {
+  background: url("../images/slider-3.jpg");
+  background-size: cover; 
+  background-position: 100% 100%;
+}
+
+#home-icon .fa {
+  font-size: 50px; 
+}
+
+#home-getstarted {
+  position: relative;
+  background: url("../images/middle.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  min-height: 250px; 
+}
+  
+  
+ #home-getstarted .dark-overlay {
+    background: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; 
+}
+
+#gallery img {
+  min-height: 250px; 
+}
+
+#copyright {
+  background: #000; 
+}
+
+/* About Page */
+
+#page-header {
+  background: url("../images/nature.jpg");
+  background-size: cover;
+  background-position: 100% 100%;
+  height: 300px;
+  padding-top: 50px;
+  background-attachment: fixed; 
+}
+
+#about img {
+  width: 350px;
+  height: 350px; 
+}
+
+
+#home-icon .fas {
+	font-size: 50px;
+}
+
+.slick-prev:before, .slick-next:before {
+  color: #000; 
+}
+
+@media (max-width: 991px) {
+  #home-getstarted {
+    min-height: 350px; 
+	} 
+	
+}
+
+@media (max-width: 575px) {
+  .carousel-caption h2 {
+    font-size: 36px; 
+	}
+  .carousel-item .pb-5 {
+    padding-bottom: 0 !important; 
+	}
+  #home-getstarted h2 {
+    font-size: 36px;
+    margin: 20px 0; 
+	} 
+	
+}
+
+@media (max-width: 480px) {
+  #home-getstarted {
+    min-height: 450px; }
+    #home-getstarted h2 {
+      font-size: 36px !important;
+      margin: 15px 0; 
+	} 
+	  
+}
